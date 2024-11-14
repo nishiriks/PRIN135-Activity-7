@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    animation: rotate 2s infinite;
+}
+
+
+h1 {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    font-size: 40px ;
+}
+
+@keyframes rotate {
+    0%, 100% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(-90deg);
+    }
+}
+  
+
